@@ -1,0 +1,23 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "nodemon": "^2.0.6",
+    "trello": "^0.10.0",
+    "trello-node-api": "^0.0.9"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
